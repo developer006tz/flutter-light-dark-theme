@@ -1,0 +1,37 @@
+📦 hotel-booking-app
+├── 📂 lib
+│   ├── 📂 core
+│   │   ├── 📄 app_config.dart
+│   │   ├── 📄 theme.dart
+│   │   └── 📄 http_client.dart
+│   │
+│   ├── 📂 features
+│   │   ├── 📂 auth
+│   │   │   ├── 📄 auth_service.dart
+│   │   │   ├── 📄 auth_provider.dart
+│   │   │   ├── 📄 login_screen.dart
+│   │   │   └── 📄 register_screen.dart
+│   │   │
+│   │   ├── 📂 booking
+│   │   │   ├── 📄 booking_service.dart
+│   │   │   ├── 📄 booking_provider.dart
+│   │   │   ├── 📄 booking_list_screen.dart
+│   │   │   └── 📄 create_booking_screen.dart
+│   │   │
+│   │   └── 📂 properties
+│   │       ├── 📄 property_service.dart
+│   │       ├── 📄 property_provider.dart
+│   │       └── 📄 property_list_screen.dart
+│   │
+│   ├── 📂 shared
+│   │   ├── 📂 models
+│   │   │   ├── 📄 user.dart
+│   │   │   └── 📄 booking.dart
+│   │   │
+│   │   └── 📂 widgets
+│   │       ├── 📄 custom_button.dart
+│   │       └── 📄 loading_indicator.dart
+│   │
+│   └── 📄 main.dart
+│
+└── 📄 pubspec.yaml
