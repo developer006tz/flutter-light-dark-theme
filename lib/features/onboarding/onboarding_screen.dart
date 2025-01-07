@@ -15,22 +15,22 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
   final PageController _pageController = PageController();
 
   final List<OnboardingPage> _pages = const [
-    OnboardingPage(
-      title: 'Find Perfect Hotels',
-      description: 'Discover the best hotels for your stay with our curated selection.',
-      imagePath: 'assets/images/onboarding/a.jpg',
-    ),
-    OnboardingPage(
-      title: 'Easy Booking',
-      description: 'Book your favorite hotels with just a few taps.',
-      imagePath: 'assets/images/onboarding/b.jpg',
-    ),
-    OnboardingPage(
-      title: 'Great Experience',
-      description: 'Enjoy your stay with our premium service and support.',
-      imagePath: 'assets/images/onboarding/c.jpg',
-    ),
-  ];
+  OnboardingPage(
+    title: 'Reconnect & Rekindle 🤝',
+    description: 'Find old friends, make new ones, and build a community that matters.',
+    imagePath: 'assets/images/onboarding/a.jpg',
+  ),
+  OnboardingPage(
+    title: 'Share Your World 🌍',
+    description: 'Show off your life, your style, your passions. Your story deserves to be seen.',
+    imagePath: 'assets/images/onboarding/b.jpg',
+  ),
+  OnboardingPage(
+    title: 'Earn While You Engage 💸',
+    description: 'Get rewarded for every like, share, and connection. Your social life just got lucrative.',
+    imagePath: 'assets/images/onboarding/c.jpg',
+  ),
+];
 
   @override
   void dispose() {
