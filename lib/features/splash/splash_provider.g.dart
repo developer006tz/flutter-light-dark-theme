@@ -1,26 +1,26 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'theme_provider.dart';
+part of 'splash_provider.dart';
 
 // **************************************************************************
 // RiverpodGenerator
 // **************************************************************************
 
-String _$themeModeNotifierHash() => r'f1a7a584d8dafa753133dece433a1bc2dcfb0e4f';
+String _$splashNotifierHash() => r'd87debcd1f29a7fe3fbd1bc06f006ff02b60b999';
 
-/// See also [ThemeModeNotifier].
-@ProviderFor(ThemeModeNotifier)
-final themeModeNotifierProvider =
-    AsyncNotifierProvider<ThemeModeNotifier, ThemeMode>.internal(
-  ThemeModeNotifier.new,
-  name: r'themeModeNotifierProvider',
+/// See also [SplashNotifier].
+@ProviderFor(SplashNotifier)
+final splashNotifierProvider =
+    AutoDisposeAsyncNotifierProvider<SplashNotifier, void>.internal(
+  SplashNotifier.new,
+  name: r'splashNotifierProvider',
   debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
       ? null
-      : _$themeModeNotifierHash,
+      : _$splashNotifierHash,
   dependencies: null,
   allTransitiveDependencies: null,
 );
 
-typedef _$ThemeModeNotifier = AsyncNotifier<ThemeMode>;
+typedef _$SplashNotifier = AutoDisposeAsyncNotifier<void>;
 // ignore_for_file: type=lint
 // ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package

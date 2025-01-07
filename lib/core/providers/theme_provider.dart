@@ -4,7 +4,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 part 'theme_provider.g.dart';
 
-/// Theme mode state notifier
 @Riverpod(keepAlive: true)
 class ThemeModeNotifier extends _$ThemeModeNotifier {
   static const _themePreferenceKey = 'theme_mode';

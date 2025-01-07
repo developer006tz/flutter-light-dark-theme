@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:imagecapture/features/home/home_screen.dart';
+import 'package:imagecapture/features/splash/splash_screen.dart';
 import 'core/theme/app_theme.dart';
 import 'core/providers/theme_provider.dart';
 
@@ -24,8 +25,7 @@ class MyApp extends ConsumerWidget {
       themeMode: themeMode.value ?? ThemeMode.system,
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
-      // Your app routes and home screen here
-      home: const HomeScreen(),
+      home: SplashScreen(),
     );
   }
 }
